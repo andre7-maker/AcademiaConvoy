@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+	<title>Registrate</title>
+	<link rel="stylesheet" type="text/css" href="Pagina/css/nuevo_usuario.css">
+	<style type="text/css">
+		body {
+			background: url(img/gallery.jpg) no-repeat center top;
+			background-color: black;
+			font-family: 'Anton', sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<form class="nuevo_usuario" method="post">
+		<img class="imagen" src="Pagina/img/logodivi.jpg">
+		<div class="contenido">
+			<label>Nombre</label>
+			<input class="input" type="text" name="nombre"><br><br>
+			<label>Contraseña</label>
+			<input class="input" type="password" name="password" id="password"><br><br>
+			<div class="password">
+  				<button class="btn btn-primary" type="button" onclick="mostrarContrasena()">Mostrar Contraseña</button>
+			</div><br><br>
+			<label class="rol">Rol</label>
+			<select>
+				<option>Aministrador</option>
+				<option>Asistente</option>
+			</select>
+			<br><br>
+			<input class="enviar" type="submit" name="enviar" placeholder="registrarse"><a href="../Pagina/login.html">vuelve e ingresa</a>
+		</div>
+	</form>
+	<script>
+  function mostrarContrasena(){
+      var tipo = document.getElementById("password");
+      if(tipo.type == "password"){
+          tipo.type = "text";
+      }else{
+          tipo.type = "password";
+      }
+  }
+</script>
+</body>
+</html>

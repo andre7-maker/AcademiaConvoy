@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.nuevo_usuario {
+	width: 500px;
+	height: 380px;
+	margin: auto;
+	margin-top: 50px;
+	background-color: rgba(255, 225, 225,0.5);
+	border-radius: 5px;
+	outline-style: none;
+}
+.contenido {
+	background-color:;
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+.enviar {
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	/*background:linear-gradient(left 30%, yellow 30%,red 40%);*/ 
+	outline: none;
+	margin-left: 180px;
+}
+.input {
+	width: 450px;
+	height: 30px;
+	font-size: 20px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+}
+.input:hover {
+	transition: 1s;
+	width: 450px;
+	height: 30px;
+	font-size: 20px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid white;
+}
+
+label {
+	margin-left: 0px;
+	padding: 20px;
+	font-size: 20px;
+	color: white;
+}
+.rol {
+	float: left;
+}
+select {
+	float: left;
+	margin-top:20px; 
+	background-color: transparent;
+}
+.nuevo_usuario .imagen	{
+	border-radius: 100%;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	top: -20px;
+	left: calc(60% - 50px);
+}
+.password button {
+	background-color: transparent;
+	float: left;
+	background-color: white;
+	font-size: 15px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
